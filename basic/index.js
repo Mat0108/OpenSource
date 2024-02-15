@@ -1,8 +1,10 @@
-function helloWorld() {
-    return "Hello World";
+function celsiusToFahrenheit(celsius) {
+    return (celsius * 9/5) + 32;
 }
-function helloWorld2() {
-    return "Hello World !";
+  
+
+function fahrenheitToCelsius(fahrenheit) {
+return (fahrenheit - 32) * 5/9;
 }
 
-module.export = helloWorld2;
+module.export = {celsiusToFahrenheit,fahrenheitToCelsius};
